@@ -1,0 +1,28 @@
+# PHP
+*.log
+*.cache
+*.tmp
+*.swp
+*.swo
+*~
+
+# IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Config (если есть чувствительные данные)
+# config/db.php - раскомментируйте если не хотите загружать конфиг
+
+# Vendor (если используется Composer)
+vendor/
+
+# Node modules (если используется npm)
+node_modules/
+
